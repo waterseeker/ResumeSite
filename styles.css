@@ -16,3 +16,24 @@ footer {
     background-repeat: no-repeat;
 }
 
+h1 {
+    text-align: left;
+    padding-bottom: 1em;
+    margin-left: -1em;
+}
+
+#flavor{
+    text-align: right;
+}
+
+h2 {
+    text-align: center;
+}
+
+.carouselPictures {
+    width: 100%;
+}
+
+#parchment {
+    background-image: url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/parchment.jpg")
+}
