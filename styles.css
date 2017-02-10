@@ -11,6 +11,8 @@ footer {
     }
 
 .jumbotron {
-    background-image : url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/wayne.jpeg")
+    background-image : url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/wayne.jpeg");
+    background-position: 50% 30%;
+    background-repeat: no-repeat;
 }
 
