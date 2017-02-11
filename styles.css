@@ -2,6 +2,9 @@
 .navbar {
     margin-bottom: 0;
     border-radius: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     }
     
     /* Add a gray background color and some padding to the footer */
@@ -20,6 +23,7 @@ h1 {
     text-align: left;
     padding-bottom: 1em;
     margin-left: -1em;
+    font-family: Cambria, Georgia, serif;
 }
 
 #flavor{
@@ -28,6 +32,8 @@ h1 {
 
 h2 {
     text-align: center;
+    font-family: Cambria, Georgia, serif;
+    margin: 1em;
 }
 
 .carouselPictures {
@@ -35,5 +41,25 @@ h2 {
 }
 
 #parchment {
-    background-image: url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/parchment.jpg")
+    background-image: url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/parchment.jpg");
+    text-align: center;
+
+}
+
+.experience {
+    height: 20em;
+    width: 20em;
+}
+
+.ulAbout {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.lAlign {
+    float: left;
+}
+
+.rAlign {
+    float: right;
 }
