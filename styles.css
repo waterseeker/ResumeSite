@@ -59,10 +59,11 @@ h2 {
 }
 
 .experience {
-    height: 30em;
+    height: 35em;
     width: 20em;
-    margin: 2.5em;
     border: 2px #003300 solid;
+    padding: 2em;
+    margin: 5px;
 }
 
 .experience p {
@@ -74,4 +75,16 @@ h2 {
     font-size: 1.5em;
     text-align: left;
 
+}
+
+.column {
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+}
+
+.row{
+    width: 100%;
 }
