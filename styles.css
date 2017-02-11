@@ -1,23 +1,27 @@
  /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
     position: fixed;
     width: 100%;
     z-index: 10;
-    /*height: 4em;
-    line-height: 4em;*/
     background-color: #c0c0c0;
-    text-align: center;
     }
     
     /* Add a gray background color and some padding to the footer */
 footer {
     background-color: #003300;
-    height: 4em;
-    line-height: 4em;
+    height: 5em;
+    line-height: 5em;
     color: #c0c0c0;
     }
+
+footer a {
+    color: #c0c0c0;
+}
+
+footer li {
+    padding-left: 2em;
+    font-size: 1em;
+}
 
 .jumbotron {
     background-image : url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/wayne.jpeg");
