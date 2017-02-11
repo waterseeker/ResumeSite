@@ -5,17 +5,23 @@
     position: fixed;
     width: 100%;
     z-index: 10;
+    /*height: 4em;
+    line-height: 4em;*/
+    background-color: #c0c0c0;
+    text-align: center;
     }
     
     /* Add a gray background color and some padding to the footer */
 footer {
-    background-color: #f2f2f2;
-    padding: 25px;
+    background-color: #003300;
+    height: 4em;
+    line-height: 4em;
+    color: #c0c0c0;
     }
 
 .jumbotron {
     background-image : url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/wayne.jpeg");
-    background-position: 50% 30%;
+    background-position: 50% 25%;
     background-repeat: no-repeat;
 }
 
@@ -24,6 +30,7 @@ h1 {
     padding-bottom: 1em;
     margin-left: -1em;
     font-family: Cambria, Georgia, serif;
+    color: #003300;
 }
 
 #flavor{
@@ -34,6 +41,7 @@ h2 {
     text-align: center;
     font-family: Cambria, Georgia, serif;
     margin: 1em;
+    color: #003300;
 }
 
 .carouselPictures {
@@ -54,12 +62,9 @@ h2 {
 .ulAbout {
     display: inline-block;
     font-size: 1.5em;
+    text-align: left;
 }
 
-.lAlign {
-    float: left;
-}
-
-.rAlign {
-    float: right;
+.ulR {
+    text-align: right;
 }
