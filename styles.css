@@ -59,14 +59,21 @@ h2 {
 }
 
 .experience {
-    height: 20em;
+    height: 30em;
     width: 20em;
+    margin: 2.5em;
+    border: 2px #003300 solid;
+}
+
+.experience p {
+    font-size: 1.25em;
 }
 
 .ulAbout {
     display: inline-block;
     font-size: 1.5em;
     text-align: left;
+    
 }
 
 .ulR {
