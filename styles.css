@@ -24,7 +24,7 @@ footer li {
 }
 
 .jumbotron {
-    background-image : url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/wayne.jpeg");
+    background-image : url("../images/wayne.jpeg");
     background-position: 50% 25%;
     background-repeat: no-repeat;
 }
@@ -53,7 +53,7 @@ h2 {
 }
 
 #parchment {
-    background-image: url("/Users/wayneburris/Desktop/Projects/ResumeSite/images/parchment.jpg");
+    background-image: url("../images/parchment.jpg");
     text-align: center;
 
 }
@@ -73,7 +73,7 @@ h2 {
     display: inline-block;
     font-size: 1.5em;
     text-align: left;
-    
+
 }
 
 .ulR {
