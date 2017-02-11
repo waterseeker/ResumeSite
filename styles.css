@@ -59,15 +59,15 @@ h2 {
 }
 
 .experience {
-    height: 35em;
-    width: 20em;
     border: 2px #003300 solid;
-    padding: 2em;
-    margin: 5px;
-}
+    margin: 1%;
+    width: 20%;
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    
 
-.experience p {
-    font-size: 1.25em;
 }
 
 .ulAbout {
@@ -77,14 +77,17 @@ h2 {
 
 }
 
-.column {
-    padding: 0;
+.flexcontainer {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box; 
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.container {
-    padding: 0;
-}
-
-.row{
-    width: 100%;
+.seals {
+    margin: auto;
 }
