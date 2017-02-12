@@ -8,7 +8,7 @@
     border-top: 0;
     }
     
-    /* Add a gray background color and some padding to the footer */
+    
 footer {
     background-color: #003300;
     height: 5em;
@@ -29,7 +29,6 @@ footer li {
     background-image : url("./images/wayne.jpeg");
     background-position: 50% 25%;
     background-repeat: no-repeat;
-    background: cover;
 }
 
 h1 {
@@ -68,9 +67,12 @@ h2 {
     flex: 1;
     padding: 10px;
     text-align: center;
-    display: block;
-    
+    display: block;  
+}
 
+.experience p {
+    font-size: 1.5em;
+    color: #003300
 }
 
 .ulAbout {
@@ -93,6 +95,8 @@ h2 {
 
 .seals {
     margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
 }
 
 .sectionTitle {
