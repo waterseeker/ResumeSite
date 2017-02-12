@@ -9,7 +9,6 @@
     border-right: 0;
     }
     
-    
 footer {
     background-color: #003300;
     height: 5em;
@@ -38,10 +37,15 @@ h1 {
     margin-left: -1em;
     font-family: Cambria, Georgia, serif;
     color: #003300;
+    text-shadow: 2px 2px 4px #c0c0c0;
 }
 
 #flavor{
     text-align: right;
+    text-shadow: 2px 2px 4px #c0c0c0;
+}
+#about{
+    text-shadow: 2px 2px 4px #c0c0c0;
 }
 
 h2 {
@@ -49,6 +53,7 @@ h2 {
     font-family: Cambria, Georgia, serif;
     margin: 1em;
     color: #003300;
+    text-shadow: 2px 2px 2px #000000;
 }
 
 .carouselPictures {
@@ -93,4 +98,16 @@ h2 {
     line-height: 3em;
     margin-top: 1em;
     margin-bottom: 1em;
+}
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column;
 }
