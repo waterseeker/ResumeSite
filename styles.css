@@ -8,7 +8,7 @@
     border-left: 0;
     border-right: 0;
     }
-    
+
 footer {
     background-color: #003300;
     height: 5em;
@@ -47,6 +47,7 @@ h1 {
 }
 #about{
     text-shadow: 2px 2px 4px #c0c0c0;
+    padding-top: 1em;
 }
 
 h2 {
