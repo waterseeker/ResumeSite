@@ -29,7 +29,7 @@ footer li {
     background-image : url("./images/wayne.jpeg");
     background-position: 50% 25%;
     background-repeat: no-repeat;
-    background: cover;
+    background-size: 100%;
 }
 
 h1 {
