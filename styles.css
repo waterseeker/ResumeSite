@@ -1,11 +1,12 @@
- /* Remove the navbar's default margin-bottom and rounded borders */ 
-.navbar {
+ .navbar {
     position: fixed;
     width: 100%;
     z-index: 10;
     background-color: #c0c0c0;
     border-radius: 0;
     border-top: 0;
+    border-left: 0;
+    border-right: 0;
     }
     
     
@@ -61,13 +62,7 @@ h2 {
 }
 
 .experience {
-    border: 2px #003300 solid;
-    margin: 1%;
-    width: 20%;
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-    display: block;  
+    border: 2px #003300 solid;  
 }
 
 .experience p {
@@ -80,17 +75,6 @@ h2 {
     font-size: 1.5em;
     text-align: left;
 
-}
-
-.flexcontainer {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-	box-sizing: border-box; 
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .seals {
